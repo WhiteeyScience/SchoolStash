@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #555; /* Slightly darker grey text color */
+}
+
+header {
+    background-color: #3498db; /* Light blue header background */
+    color: #fff; /* White header text color */
+    padding: 20px 0; /* Slightly reduced padding */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #555; /* Dark grey navbar background */
+    margin-top: 10px;
+    border-radius: 4px; /* Slightly increased border radius */
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px; /* Slightly increased margin between navbar items */
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px 20px; /* Slightly reduced padding */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #444; /* Darker grey on hover */
+    color: #fff;
+}
+
+main {
+    padding: 20px; /* Slightly increased padding */
+}
+
+.home-section {
+    background-color: #fff; /* White background for main content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Increased shadow size */
+    margin-top: 20px;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 15px 25px; /* Slightly increased padding */
+    margin-top: 20px; /* Added margin-top for spacing */
+    background-color: #3498db; /* Light blue button background */
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.rounded-button:hover {
+    background-color: #267bb8; /* Slightly darker blue on hover */
+}
+.in-Stock{
+    color: green;
+    font-weight: bold;
+}
+.low-Stock{
+    color: rgb(209, 209, 93);
+    font-weight: bold;
+}
+
+
+
+/* Add this to your existing styles.css file or create a new one */
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding to provide some space inside the footer */
+    text-align: center; /* Center-align text */ /* Fixed position at the bottom of the page */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick to the bottom of the page */
+  }
+  
+  /* Optional: Style for the disclaimer text */
+  footer p {
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+
+  
